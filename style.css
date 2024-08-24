@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url('uoj.jpg') no-repeat;
+    background-size:cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.box{
+    width: 420px;
+    background:transparent;
+    color: black;
+    border-radius: 10px;
+    padding: 30px 40px;
+    border: 2px solid rgba(255,255,255, 2);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0,0,0, 2);
+
+}
+.box h1{
+    color: cornsilk;
+    font-size: 35px;
+    text-align: center;
+}
+.box .input-box{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    margin: 30px 0;
+}
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline:none;
+    border: 2px solid rgba(255,255,255, 2);
+    border-radius: 40px;
+    font-size: 20px;
+    color: cornsilk;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder{
+    color: cornsilk;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+.box .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+    color: cornsilk;
+}
+
+.remember-forgot label input{
+    accent-color: cornsilk;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color:lightskyblue;
+    font-weight: 600;
+}
+.box .btn{
+    width: 100%;
+    height: 45px;
+    background-color:lightblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0, -1);
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.box .register{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register p a{
+    color:lightskyblue;
+    font-weight: 600;
+}
